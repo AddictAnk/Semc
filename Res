@@ -1,0 +1,52 @@
+Build prop tweaks
+
+Commit here
+
+#For Images capping, Adjustment as per the original source.
+Range Between 70 - 100
+Add the line in the end.
+
+
+#For Scrolling Improvement
+Range as per the kernel support
+As the strings are hardcoded..
+Add the line in the end
+ro.ril.min_fling velocity=8000
+ro.ril.max_fling_velocity=12000
+
+#for Net speed Class
+Refer to the original capping.
+Increase slight by committing a single class
+net.tcp.buffersize
+
+For the ports to be done.
+
+Add the Build properties in the local.prop
+
+Decompile Using the Supported framework
+Recompile using the framework to being Ported 
+Sign the apk with testkeys. or Cert.rsa
+
+Use the emulator and echo commands
+
+To get build.prop properties
+Use the command on the terminal
+Get ro.ril/build.prop
+
+End for the Build.prop.properties..
+.prop patched manually
+
+Commit changes in android.policy.jar
+Commit changes in android.services.jar
+Commit changes in android framework.jar..
+
+For the patching results/
+Commit changes in bools.xml
+commit changes in public.xml
+Check the header
+Commit ends
+
+End For the framework patch..
+
+
+
